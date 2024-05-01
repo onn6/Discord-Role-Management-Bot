@@ -10,37 +10,45 @@ Copyright (c) 2024 Wick Studio
 
 module.exports = {
     clientId: "1212347317793857546", // ايدي البوت
-    guildId: "559015222405234697", // ايدي السيرفر
+    guildId: "992554457789370378", // ايدي السيرفر
     thumbnail: "https://media.discordapp.net/attachments/955662652959502426/1215187362326515733/image.png?ex=66328cac&is=66313b2c&hm=0388585811c8af097bcdd9aa851f46c5ec3994e3d16c64022744bb8f5f4a7c33&=&format=webp&quality=lossless&width=550&height=308", // الصورة المصغرة
     image: "https://media.discordapp.net/attachments/955662652959502426/1215187362326515733/image.png?ex=66328cac&is=66313b2c&hm=0388585811c8af097bcdd9aa851f46c5ec3994e3d16c64022744bb8f5f4a7c33&=&format=webp&quality=lossless&width=550&height=308", // صورة الامبد الكبيرة
     footer: "https://media.discordapp.net/attachments/955662652959502426/1215187362326515733/image.png?ex=66328cac&is=66313b2c&hm=0388585811c8af097bcdd9aa851f46c5ec3994e3d16c64022744bb8f5f4a7c33&=&format=webp&quality=lossless&width=550&height=308", // صورة مصغرة للفوتر
     roles: {
       section1: {
-        label: "section_1", // اسم القسم الاول
-        description: "Select your roles for Mentions", // وصف القسم
+        label: "اختر اشعاراتك", // اسم القسم الاول
+        description: "اختر كل اشعارت الي تبيه يوصلك", // وصف القسم
         roles: [
-          { label: "role_name", value: "955662596730662923" }, // role_name = اسم الرتبة | role_id = ايدي الرتبة
+          { label: "اشعارات يوتيوب وبثوث سموكي", value: "999225913176752170" }, // role_name = اسم الرتبة | role_id = ايدي الرتبة
+          { label: "اخبار السيرفر", value: "999226728079691847" }, // role_name = اسم الرتبة | role_id = ايدي الرتبة
+          { label: "اشعار فعاليات", value: "999228285869371422" }, // role_name = اسم الرتبة | role_id = ايدي الرتبة
         ]
       },
       section2: {
-        label: "section_2", // اسم القسم الثاني
-        description: "Select your roles for Languages", // وصف القسم
+        label: "اختر اقسامك", // اسم القسم الثاني
+        description: "اختر اقسامك للأظهار رومات", // وصف القسم
         roles: [
-          { label: "role_name", value: "955662596730662923" }, // role_name = اسم الرتبة | role_id = ايدي الرتبة
+          { label: "شات انمي والمانجا", value: "1101480370874105876" }, // role_name = اسم الرتبة | role_id = ايدي الرتبة
+          { label: "قسم للأستعراض ادت", value: "999231303029379092" }, // role_name = اسم الرتبة | role_id = ايدي الرتبة
+          { label: "مهارات", value: "999230664983461898" }, // role_name = اسم الرتبة | role_id = ايدي الرتبة
         ]
       },
       section3: {
-        label: "section_3", // اسم القسم الثالث
-        description: "Select your roles for Colors", // وصف القسم
+        label: "اختر العابك", // اسم القسم الثالث
+        description: "اختر العابك المفضلة للأظهار قسم العابك", // وصف القسم
         roles: [
-          { label: "role_name", value: "955662596730662923" }, // role_name = اسم الرتبة | role_id = ايدي الرتبة
+          { label: "قنشن امباكت", value: "992969449495871500" }, // role_name = اسم الرتبة | role_id = ايدي الرتبة
+          { label: "هونكاي ستار ريل", value: "1101271427342155826" }, // role_name = اسم الرتبة | role_id = ايدي الرتبة
         ]
       },
       section4: {
-        label: "section_3", // اسم القسم الثالث
-        description: "Select your roles forD", // وصف القسم
+        label: "اختر سيرفراتك", // اسم القسم الثالث
+        description: "اختر سيرفرك لتلقي طلبات مساعدة", // وصف القسم
         roles: [
-          { label: "role_name", value: "955662596730662923" }, // role_name = اسم الرتبة | role_id = ايدي الرتبة
+          { label: "اوربا", value: "992977415959748800" }, // role_name = اسم الرتبة | role_id = ايدي الرتبة
+          { label: "اسيا", value: "992977588995760248" }, // role_name = اسم الرتبة | role_id = ايدي الرتبة
+          { label: "امريكا", value: "992977774358843462" }, // role_name = اسم الرتبة | role_id = ايدي الرتبة
+
         ]
       },
     }
