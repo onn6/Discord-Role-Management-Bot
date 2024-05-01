@@ -18,7 +18,7 @@ const commands = [
         .toJSON(),
 ];
 
-const rest = new REST({ version: '9' }).setToken(config.token);
+const rest = new REST({ version: '9' }).setToken(process.env.TOKEN);
 
 const client = new Client({
     intents: [
@@ -122,7 +122,7 @@ client.on('interactionCreate', async interaction => {
     }
 });
 
-client.login(config.token);
+client.login(process.env.TOKEN);
 
 
 process.on('unhandledRejection', (reason, p) => {
