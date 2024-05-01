@@ -9,8 +9,8 @@ Copyright (c) 2024 Wick Studio
 */
 
 module.exports = {
-    clientId: "", // ايدي البوت
-    guildId: "", // ايدي السيرفر
+    clientId: "1191253380186767390", // ايدي البوت
+    guildId: "559015222405234697", // ايدي السيرفر
     thumbnail: "", // الصورة المصغرة
     image: "", // صورة الامبد الكبيرة
     footer: "", // صورة مصغرة للفوتر
@@ -42,6 +42,21 @@ module.exports = {
         ]
       },
       section3: {
+        label: "section_3", // اسم القسم الثالث
+        description: "Select your roles for Colors", // وصف القسم
+        roles: [
+          { label: "role_name", value: "role_id" }, // role_name = اسم الرتبة | role_id = ايدي الرتبة
+          { label: "role_name", value: "role_id" }, // role_name = اسم الرتبة | role_id = ايدي الرتبة
+          { label: "role_name", value: "role_id" }, // role_name = اسم الرتبة | role_id = ايدي الرتبة
+          { label: "role_name", value: "role_id" }, // role_name = اسم الرتبة | role_id = ايدي الرتبة
+          { label: "role_name", value: "role_id" }, // role_name = اسم الرتبة | role_id = ايدي الرتبة
+          { label: "role_name", value: "role_id" }, // role_name = اسم الرتبة | role_id = ايدي الرتبة
+          { label: "role_name", value: "role_id" }, // role_name = اسم الرتبة | role_id = ايدي الرتبة
+          { label: "role_name", value: "role_id" }, // role_name = اسم الرتبة | role_id = ايدي الرتبة
+          { label: "role_name", value: "role_id" }, // role_name = اسم الرتبة | role_id = ايدي الرتبة
+        ]
+      },
+      section4: {
         label: "section_3", // اسم القسم الثالث
         description: "Select your roles for Colors", // وصف القسم
         roles: [
