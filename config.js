@@ -9,7 +9,6 @@ Copyright (c) 2024 Wick Studio
 */
 
 module.exports = {
-    token: "", // التوكن
     clientId: "", // ايدي البوت
     guildId: "", // ايدي السيرفر
     thumbnail: "", // الصورة المصغرة
