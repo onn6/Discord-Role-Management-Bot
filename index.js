@@ -61,12 +61,12 @@ client.on('interactionCreate', async interaction => {
             await interaction.reply({ content: 'Done', ephemeral: true });
 
             const embed = new EmbedBuilder()
-                .setColor('#3F7FFA')
+                .setColor('#2b2d31')
                 .setThumbnail(config.thumbnail)
                 .setTitle('قم بأختيار الرتب الخاصة بك')
-                .setDescription('قم بأختيار الرتب التي تناسبك من قائمة الاختيارات تحت.')
+                .setDescription('**خصص رتبتك بناء على ماترغب فيه من اخبار السيرفر والعاب وتحديد العابك المفضلة والسيرفر الي تلعب فيه**')
                 .setImage(config.image)
-                .setFooter({ text: 'Wick Studio Team', iconURL: config.footer });
+                .setFooter({ text: 'By Smokey Admins', iconURL: config.footer });
 
             const rows = [];
 
