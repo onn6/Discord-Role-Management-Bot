@@ -11,9 +11,9 @@ Copyright (c) 2024 Wick Studio
 module.exports = {
     clientId: "1212347317793857546", // ايدي البوت
     guildId: "992554457789370378", // ايدي السيرفر
-    thumbnail: "https://media.discordapp.net/attachments/955662652959502426/1215187362326515733/image.png?ex=66328cac&is=66313b2c&hm=0388585811c8af097bcdd9aa851f46c5ec3994e3d16c64022744bb8f5f4a7c33&=&format=webp&quality=lossless&width=550&height=308", // الصورة المصغرة
-    image: "https://media.discordapp.net/attachments/955662652959502426/1215187362326515733/image.png?ex=66328cac&is=66313b2c&hm=0388585811c8af097bcdd9aa851f46c5ec3994e3d16c64022744bb8f5f4a7c33&=&format=webp&quality=lossless&width=550&height=308", // صورة الامبد الكبيرة
-    footer: "https://media.discordapp.net/attachments/955662652959502426/1215187362326515733/image.png?ex=66328cac&is=66313b2c&hm=0388585811c8af097bcdd9aa851f46c5ec3994e3d16c64022744bb8f5f4a7c33&=&format=webp&quality=lossless&width=550&height=308", // صورة مصغرة للفوتر
+    thumbnail: "https://media.discordapp.net/attachments/1203067988635557918/1235156057911726080/Icon_Emoji_Paimons_Paintings_29_Furina_1.png?ex=66335838&is=663206b8&hm=7f45a6bb1f48dd5c73e0f0c049d9472108c20fe44880f689947fdf964e5aa088&=&format=webp&quality=lossless", // الصورة المصغرة
+    image: "https://media.discordapp.net/attachments/1203067988635557918/1235141925976277023/7e754c284f101acf.png?ex=66334b0e&is=6631f98e&hm=e8e946d46be3aaf878d83b11375d67dce5eae3c250b756fedbdbe4005167c59b&=&format=webp&quality=lossless", // صورة الامبد الكبيرة
+    footer: "https://media.discordapp.net/attachments/1203067988635557918/1235156418357624892/294b17140531249c118d246a06c165d7.png?ex=6633588e&is=6632070e&hm=0fbc6f0efc0e3a64ec4bf601e39cd1983b456d8912088e01e569aa905cbdf791&=&format=webp&quality=lossless&width=671&height=671", // صورة مصغرة للفوتر
     roles: {
       section1: {
         label: "اختر اشعاراتك", // اسم القسم الاول
